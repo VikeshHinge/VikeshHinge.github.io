@@ -1,11 +1,9 @@
 
 import './App.css';
-
+import Aboutme from './Componunts/Aboutme';
 function App() {
   return (
-    <div className="App">
-        Hellow!!!!!
-    </div>
+    <Aboutme/>
   );
 }
 
