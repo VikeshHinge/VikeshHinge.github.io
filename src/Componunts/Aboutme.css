@@ -1,16 +1,90 @@
-
-.aboutme{
-    background-color: aquamarine;
-    justify-content: center;
+.nav{
+   position: fixed;
+   width: 100%;
+   z-index: 9999;
+   border-bottom: 2px solid #c7ff84;
+}
+.Navbox{
+    font-size: 18px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo{
+    font-size: 80px;
+    text-align: center;
+    color: #c7ff84;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 15px #bee7d8, 0 0 10px #00e645, 0 0 15px #00e600, 0 0 30px #08410b, 0 0 35px #020b14;
+    }
+    to {
+      text-shadow: 0 0 25px #aed8ab, 0 0 20px #8ee600, 0 0 20px #162504, 0 0 30px #062521, 0 0 50px #032c31;
+    }
+}
+.text1{
+ 
+}
+.text1:hover{
+  color: #c7ff84;
+  text-shadow:  0 0 10px #7fbea6, 0 0 10px #c7ff84, 0 0 10px #81dd11, 0 0 90px #c7ff84, 0 0 50px #73c70d;
+}
+.skilltext{
+    font-weight: bold;
+    text-shadow:  0 0 10px #c7ff84,0 0 10px #90f713,0 0 15px #1e2c1e;
+    /* background-color: #00e60c; */
+}
+.intro_box{
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
+    width: 90%;
+    margin: auto;
 }
-
+.container{
+    width: 95%;
+    margin: auto;
+    padding-top: 130px;
+}
 .heading{
-
+    width: 60%;
+    text-align: left;
+    padding-left: 100px;
 }
-
-
+.heading1{
+    color: #c7ff84; 
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.heading2{
+   font-size: 18px;
+   font-weight: bolder;
+}
+.intro_img{
+border-top-width: 2px  ;
+padding: 10px;
+width: 30%;
+}
+.skill_img{
+    width: 80%;
+    height: 85%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.button{
+    color: black;
+    margin-top: 10px;
+    width: 180px;
+}
+.aboutme_text{
+    font-family: 'Sriracha', cursive;
+    font-size: 18px;
+    color: #c7ff84;
+}
 
 @media all and (min-width:320px) and (max-width:479px){
 .aboutme{
@@ -19,6 +93,7 @@
 .heading{
     margin: auto;
     width: 90%;
+    padding-left: 0px;
 }
 
 }

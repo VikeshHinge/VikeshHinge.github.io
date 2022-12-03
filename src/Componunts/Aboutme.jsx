@@ -1,25 +1,28 @@
 import React from 'react'
-import {Box,Flex,Center,Square,Text,Heading,Image, Spacer,Button,Divider} from '@chakra-ui/react';
-import './Aboutme.css'
+import {Box,Text,Heading,Image,Flex} from '@chakra-ui/react'
 const Aboutme = () => {
   return (
-   <Box >
+    <Flex w='80%' m='auto' mt='50px' gap='10px' >
+        <Box w='70%' >
+        <Heading>About Me: </Heading>
+        <br />
+        <Text className='aboutme_text'>
+          Hello, I am Vikesh Hinge from Navi Mumbai, Maharashtra. I have done BE graduation in Civil-Engineering 
+          from Pune University in the year 2019, after that, I worked at India's top infrastructure development 
+          company, J. Kumar Infraprojects ltd for one year, while working in the construction field I got to know
+          that the world is starting to shift towers technology and becoming more and more digital and that's 
+          how I decided to shift my career in IT Industry.
+          Initially, I explored all branches of the IT sector to choose the best job for me, and all those options I
+          found web development is a very promising career for me and I also realize I have the creative and 
+          critical thinking required for a web developer’s job and that's how I started my journey towards
+          becoming a Full Stack Web developer.
+        </Text>
+        </Box>
 
-   <Flex className='aboutme' flexDirection={{base:'column',md:'row'}}>
-     <Box className='heading'  >
-     <Flex><Text as='b'>Hello</Text><Divider /></Flex>
-     <Heading as='h1' size='4xl' w='70%'>I Am Vikesh Hinge</Heading>
-     <Text w='70%' mt='15px' mb='15px'>Aspiring Full Stack Web Developer at Masai School, Life Long Learner.</Text>
-     <Button colorScheme='teal' variant='solid'>
-       My Resume
-     </Button>
-     </Box>
-      <Box bg='yellow'>
-      <Image w='80%' m='auto' borderRadius='20px' src='https://avatars.githubusercontent.com/u/103572278?v=4' alt='Vikesh Hinge' />
-      </Box>
-   </Flex>
-  
-   </Box>
+        <Box w='20%' m='auto'>
+          <Image w='100%' src='https://i.pinimg.com/originals/85/96/5b/85965b76973f8523135cf0d17c64b333.gif' alt='About Me'/>
+        </Box>
+    </Flex>
   )
 }
 
