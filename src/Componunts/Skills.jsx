@@ -5,11 +5,11 @@ import {Box,Image,SimpleGrid,Heading,Text} from '@chakra-ui/react'
 
 const Skills = () => {
   return (
-   <Box w='55%' m='auto' border='1px solid #c7ff84' mt='100px' mb='20px' p='20px' >
+   <Box w='60%' m='auto'  mt='100px' p='3px'  mb='30px'overflow='hidden' className='box_grid' >
 
-<SimpleGrid columns={{base:'3',md:'5'}} spacing='30px' p='20px' textAlign='center'>
+   <SimpleGrid  columns={{base:'3',md:'5'}} spacing='40px' p='30px'  textAlign='center' >
 
-      <Box textAlign='center'>
+      <Box textAlign='center'  >
         <Image
           className="skill_img"
           src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
@@ -58,7 +58,7 @@ const Skills = () => {
         <Text className='skilltext'>Chakra UI</Text>
       </Box>
       <Box>
-        <Image
+        <Image 
           className="skill_img"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQZutuVAXi7boyDVdqMC_4xGIHBVaIUT7X8_bCZa6AYItzKGimXQg7rUXoEx-hLCnsaw&usqp=CAU"
           alt="Redux"

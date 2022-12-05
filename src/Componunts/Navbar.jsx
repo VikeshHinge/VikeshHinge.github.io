@@ -1,8 +1,8 @@
 import React from 'react'
-import {Box,Flex,Text,Heading, Spacer} from '@chakra-ui/react'
+import {Box,Flex,Text,Heading, Spacer,Link} from '@chakra-ui/react'
 
 import { NavLink } from "react-router-dom";
-
+import { SiProtocolsdotio } from "react-icons/si";
 
 function Navbar() {
 
@@ -18,16 +18,16 @@ function Navbar() {
     <Flex justifyContent='center' >
 
     <Box m='auto' >
-    <Heading className='logo' >V_Hinge</Heading>
+    <Heading className='logo' > <Flex alignItems='center'>V/H</Flex> </Heading>
     </Box>
 
     <Box className='Navbox'>
     <Flex gap='50px' >
-     <Text className='text1' as='b'>Home</Text>
-     <Text className='text1' as='b'>About</Text>
-     <Text className='text1' as='b'>Skills</Text>
-     <Text className='text1' as='b'>Projects</Text>
-     <Text className='text1' as='b'>Contact</Text>
+     <Link className='text1' as='b'>Home</Link>
+     <Link className='text1' as='b'>About</Link>
+     <Link className='text1' as='b'>Skills</Link>
+     <Link className='text1' as='b'>Projects</Link>
+     <Link className='text1' as='b'>Contact</Link>
      </Flex>
         
     </Box>

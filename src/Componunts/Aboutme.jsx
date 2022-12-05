@@ -1,8 +1,11 @@
 import React from 'react'
-import {Box,Text,Heading,Image,Flex} from '@chakra-ui/react'
+import {Box,Text,Heading,Image,Flex,Divider,Center} from '@chakra-ui/react'
+import A from './A';
+
+
 const Aboutme = () => {
   return (
-    <Flex w='80%' m='auto' mt='50px' gap='10px' >
+    <Flex w='80%' m='auto' mt='50px' gap='10px' direction={{base:'column',md:'row'}} >
         <Box w='70%' >
         <Heading>About Me: </Heading>
         <br />
@@ -19,9 +22,10 @@ const Aboutme = () => {
         </Text>
         </Box>
 
-        <Box w='20%' m='auto'>
-          <Image w='100%' src='https://i.pinimg.com/originals/85/96/5b/85965b76973f8523135cf0d17c64b333.gif' alt='About Me'/>
-        </Box>
+           <Box  m='auto' >
+            <A/>
+           </Box>
+
     </Flex>
   )
 }
