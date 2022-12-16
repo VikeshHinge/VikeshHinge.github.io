@@ -5,9 +5,11 @@ import {Box,Image,SimpleGrid,Heading,Text} from '@chakra-ui/react'
 
 const Skills = () => {
   return (
-   <Box w='60%' m='auto'  mt='100px' p='3px'  mb='30px'overflow='hidden' className='box_grid' >
-
-   <SimpleGrid  columns={{base:'3',md:'5'}} spacing='40px' p='30px'  textAlign='center' >
+   <Box id='skills' pt={{base:'10px',md:'100px'}} w='90%' m='auto'>
+   <Heading mb='30px' pl='25px'className='h3'>Skills :</Heading>
+    <Box w={{base:'90%',md:'70%'}} m='auto'   p='5px'  mb='100px' overflow='hidden' className='box_grid' >
+   
+   <SimpleGrid w='100%' m='auto'  columns={{base:'3',md:'5'}} spacing={{base:'10px',md:'40px'}} p={{base:'15px',md:'40px'}}  textAlign='center' >
 
       <Box textAlign='center'  >
         <Image
@@ -84,14 +86,15 @@ const Skills = () => {
       <Box>
         <Image
           className="skill_img"
-          src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg"
+          src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png"
           alt="Node.js"
         />
         <Text className='skilltext'>Node.Js</Text>
       </Box>
-
+        
  </SimpleGrid>
 
+   </Box>
    </Box>
   )
 }

@@ -8,7 +8,7 @@ import { TiArrowRepeatOutline } from "react-icons/ti";
 
 const A = () => {
   return (
-    <Box >
+    <Box mt={{base:'50px'}} >
     <Text fontWeight='bold'>while( Life ) {`{`}</Text>
        <Flex  ml='15px' ><IoFastFoodOutline size='55px'/> <Text className='heading3'><Link className='heading5'>E</Link>AT</Text></Flex>
        <Flex  ml='15px'> <Text className='heading3'>SLEEP</Text><ImSleepy size='55px'/></Flex>

@@ -3,15 +3,23 @@
    width: 100%;
    z-index: 9999;
    border-bottom: 2px solid #c7ff84;
-}
-.icon{
-  
+   
 }
 .Navbox{
     font-size: 18px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: flex;
+}
+.displayNone{
+  display: none;
+}
+.optionV{
+    display: none;
+}
+.text2{
+    display: none;
 }
 /* .logo{
     font-size: 80px;
@@ -31,11 +39,12 @@
 .logo{
     animation: flicker 1.2s infinite alternate;
     color:#c7ff84 ;
+   
 }
 @keyframes flicker {
     
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
-        text-shadow: 0 0 15px #bee7d8, 0 0 10px hsl(138, 87%, 17%), 0 0 15px #00e600, 0 0 30px #08410b, 0 0 35px #020b14;
+        text-shadow: 0 0 15px #bee7d8, 0 0 20px hsl(197, 77%, 46%), 0 0 25px #089e97, 0 0 25px #eceeec, 0 0 30px #020b14;
     }
     
     20%, 24%, 55% {        
@@ -57,9 +66,10 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    padding-top: 150px;
     width: 90%;
     margin: auto;
-    background-image: url('https://i.pinimg.com/originals/b2/ad/fe/b2adfef979e22b3ee6d7fb8df41c80ee.gif');
+    background-image: url('');
 }
 .container{
     width: 95%;
@@ -69,16 +79,43 @@
 
 }
 .heading{
-    width: 60%;
+    width: 55%;
     text-align: left;
     padding-left: 100px;
-    border: 2px solid #c7ff84;
+    position: relative;
+    z-index: 99;
+    
 }
+.heading::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 1000px;
+    left: 40%;
+    top: -180%;
+    z-index: -90;
+    background-image: linear-gradient(to bottom right,#86ec08 20%, aqua 60%,#86ec08 20%); 
+    animation: animate 5s linear infinite;
+}
+.heading:hover{
+    background-color: aqua;
+} 
+@keyframes animate{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .heading1{
     color: #c7ff84; 
     font-family: 'Roboto Slab', serif;
     font-size: 50px;
     font-weight: bold;
+    
 }
 .heading2{
    font-size: 18px;
@@ -91,6 +128,10 @@
     font-family: 'Archivo Black', sans-serif;
     color: #c7ff84; 
 }
+.h3{
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
 .heading4{
     font-size: 45px;
     line-height: 45px;
@@ -108,10 +149,21 @@
     animation: flicker 1.2s infinite alternate;
     color:#c7ff84 ;
 }
+
 .intro_img{
 padding: 10px;
 width: 30%;
-border: 2px solid #7ceb7c;
+border: 4px solid aqua; 
+ border-radius: 50%;
+ animation: glow 1.3s ease-in-out ;
+ box-shadow: 0 0 35px aqua;
+
+}
+
+
+
+.intro_img img{
+    border-radius: 50%; 
 }
 .skill_img{
     width: 80%;
@@ -123,7 +175,7 @@ border: 2px solid #7ceb7c;
 .button{
     color: black;
     margin-top: 10px;
-    width: 180px;
+    width: 200px;
 }
 .aboutme_text{
     font-family: 'Sriracha', cursive;
@@ -133,42 +185,84 @@ border: 2px solid #7ceb7c;
 .box_grid{
     /* animation: animate 4s linear infinite; */
    position: relative;
- z-index: 9999;
+    z-index: 99;
 }
 .box_grid::before{
     content: '';
     position: absolute;
-    width: 100px;
+    width: 200px;
     height: 1000px;
-    left: 45%;
+    left: 38%;
     top: -65%;
     z-index: -90;
-    background-color: #73c70d;
-    border: 15px solid rgb(5, 54, 5);
+    background-image: linear-gradient(to bottom right,#86ec08 20%, aqua 60%,#86ec08 20%);
     animation: animate 5s linear infinite;
 }
 .box_grid:hover{
- background-color: #c7ff84;
+ background-color: aqua;
 }
 @keyframes animate{
     0%
     {
         transform: rotate(0deg);
     }
-    /* 50%{
-        transform: rotate(-360deg);
-    } */
     100%{
         transform: rotate(360deg);
     }
 }
-
+/* 
 .box_grid::after{
 
+} */
+
+.intro_img2{
+    display: none;
 }
-
-
-
+.projectDesk{
+    width: 90%;
+    border: 3px solid aqua;
+    padding: 5px;
+    background-color: aquamarine;
+    margin: auto;
+}
+.projectDesk img:hover{
+   border: 3px solid rgb(120, 126, 120);
+}
+.projectMobi{
+    width: 20%;
+    border: 3px solid aqua;
+    padding: 5px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.projectMobi2{
+    width: 20%;
+    border: 3px solid aqua;
+    padding: 5px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 35%;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.form input{
+ margin-top: 10px;
+}
+.form textarea{
+    margin-top: 10px;
+}
+.form :last-child:hover{
+   background-color: rgb(223, 220, 220);
+   color:black;
+   font-size: 18px;
+   font-weight: bold;
+}
 
 
 
@@ -176,10 +270,88 @@ border: 2px solid #7ceb7c;
 .aboutme{
     gap: 15px;
 }
+.aboutme_text{
+    font-family: 'Bad Script', cursive;
+}
 .heading{
     margin: auto;
     width: 90%;
     padding-left: 0px;
 }
-
+.Navbox{
+ display: none;
+}
+.text1{
+    display: none;
+}
+.intro_box{
+    width: 100%;
+    padding-top: 100px;
+}
+.displayNone{
+    display: block;
+    position: relative;
+}
+.optionV{
+    position: absolute;
+    padding: 5px;
+    right: 8%;
+    top: 45px;
+   background-color: rgb(210, 247, 247);
+   border-bottom-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
+.heading1{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.heading2{
+    font-size: 15px;
+    text-align: center;
+}
+.intro_img{
+ display: none;
+}
+.heading{
+    width: 97%;
+    border: none;
+}
+.intro_img2{
+  display: block;
+  width: 75%;
+  border: 3px solid aqua;
+  box-shadow: 0 0 15px aqua;
+  margin: auto;
+  padding: 5px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.intro_img2 img {
+    width: 100%;
+   border-radius: 50%;
+}
+.skill_img{
+    width: 50%;
+    height: 55%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.projectMobi{
+    padding: 3px;
+    background-color: rgb(164, 230, 221);
+    height: fit-content;
+}
+.heading::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 1000px;
+    left: 30%;
+    top: -60%;
+    z-index: -90;
+    background-color: #73c70d ;
+    animation: animate 5s linear infinite;
+}
 }
