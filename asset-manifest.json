@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.e244dc3a.css",
-    "main.js": "/static/js/main.9f7b3b57.js",
+    "main.css": "/static/css/main.efc62317.css",
+    "main.js": "/static/js/main.9ecd48aa.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
-    "static/media/h_d.png": "/static/media/h_d.750859bcb2fb135ab900.png",
     "static/media/kindmeal_desk.png": "/static/media/kindmeal_desk.2935383d0a5ef215d477.png",
     "static/media/meanbuy_img.jpg": "/static/media/meanbuy_img.18b73680d1f2daab5b27.jpg",
     "static/media/Unbounce_d.png": "/static/media/Unbounce_d.0b1615954e1a9e41c61b.png",
-    "static/media/h_m.png": "/static/media/h_m.ce17cf8a6454222f481d.png",
     "static/media/meanbuy_img_mobi.png": "/static/media/meanbuy_img_mobi.f7322d49012432fd4075.png",
-    "static/media/unbounce_mobi.png": "/static/media/unbounce_mobi.843fd3d89b65bf66cf61.png",
+    "static/media/unbounce_mobi.png": "/static/media/unbounce_mobi.1226d2151322bdbdf79f.png",
     "index.html": "/index.html",
-    "main.e244dc3a.css.map": "/static/css/main.e244dc3a.css.map",
-    "main.9f7b3b57.js.map": "/static/js/main.9f7b3b57.js.map",
+    "main.efc62317.css.map": "/static/css/main.efc62317.css.map",
+    "main.9ecd48aa.js.map": "/static/js/main.9ecd48aa.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e244dc3a.css",
-    "static/js/main.9f7b3b57.js"
+    "static/css/main.efc62317.css",
+    "static/js/main.9ecd48aa.js"
   ]
 }
