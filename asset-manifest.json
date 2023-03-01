@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7182dcbf.css",
-    "main.js": "/static/js/main.5ed91a08.js",
+    "main.css": "/static/css/main.fd45b6da.css",
+    "main.js": "/static/js/main.dbd42870.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/kindmeal_desk.png": "/static/media/kindmeal_desk.2935383d0a5ef215d477.png",
     "static/media/interior.png": "/static/media/interior.b7c21323abeb392b03f0.png",
@@ -17,12 +17,12 @@
     "static/media/unbounce_mobi.png": "/static/media/unbounce_mobi.1226d2151322bdbdf79f.png",
     "static/media/logo.png": "/static/media/logo.cbe784c13a3794c82d7e.png",
     "index.html": "/index.html",
-    "main.7182dcbf.css.map": "/static/css/main.7182dcbf.css.map",
-    "main.5ed91a08.js.map": "/static/js/main.5ed91a08.js.map",
+    "main.fd45b6da.css.map": "/static/css/main.fd45b6da.css.map",
+    "main.dbd42870.js.map": "/static/js/main.dbd42870.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7182dcbf.css",
-    "static/js/main.5ed91a08.js"
+    "static/css/main.fd45b6da.css",
+    "static/js/main.dbd42870.js"
   ]
 }
