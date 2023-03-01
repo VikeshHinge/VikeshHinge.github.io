@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd81aef4.css",
-    "main.js": "/static/js/main.ef727518.js",
+    "main.css": "/static/css/main.7182dcbf.css",
+    "main.js": "/static/js/main.5ed91a08.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/kindmeal_desk.png": "/static/media/kindmeal_desk.2935383d0a5ef215d477.png",
     "static/media/interior.png": "/static/media/interior.b7c21323abeb392b03f0.png",
@@ -10,19 +10,19 @@
     "static/media/Unbounce_d.png": "/static/media/Unbounce_d.0b1615954e1a9e41c61b.png",
     "static/media/interior_mobi.png": "/static/media/interior_mobi.e2f31df5ffa8b199e468.png",
     "static/media/roamingangels_mobi.png": "/static/media/roamingangels_mobi.34676dd7f5ab98108088.png",
-    "static/media/Vikesh_Hinge_Resume.pdf": "/static/media/Vikesh_Hinge_Resume.3494b3e29883060f9d20.pdf",
+    "static/media/fw19_0111-Vikesh_Hinge_Resume.pdf": "/static/media/fw19_0111-Vikesh_Hinge_Resume.3494b3e29883060f9d20.pdf",
     "static/media/vikesh.png": "/static/media/vikesh.b50cdfc7cadf3bed36f9.png",
     "static/media/vik1.png": "/static/media/vik1.5690f1e3436f928df6d7.png",
     "static/media/meanbuy_img_mobi.png": "/static/media/meanbuy_img_mobi.f7322d49012432fd4075.png",
     "static/media/unbounce_mobi.png": "/static/media/unbounce_mobi.1226d2151322bdbdf79f.png",
     "static/media/logo.png": "/static/media/logo.cbe784c13a3794c82d7e.png",
     "index.html": "/index.html",
-    "main.bd81aef4.css.map": "/static/css/main.bd81aef4.css.map",
-    "main.ef727518.js.map": "/static/js/main.ef727518.js.map",
+    "main.7182dcbf.css.map": "/static/css/main.7182dcbf.css.map",
+    "main.5ed91a08.js.map": "/static/js/main.5ed91a08.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd81aef4.css",
-    "static/js/main.ef727518.js"
+    "static/css/main.7182dcbf.css",
+    "static/js/main.5ed91a08.js"
   ]
 }
